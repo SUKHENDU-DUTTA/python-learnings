@@ -1,0 +1,145 @@
+The Pandas dataframe is a 2-D, tabular data, table with rows and columns.
+The DataFrame() method is used to create a DataFrame and has the following parameters:
+1. data: The data to be stored in the Pandas DataFrame
+2. index: The index value to be provided for the resultant frame
+3. column: Set the column labels for the resultant frame if data doesn't mention before
+4. dtype: It is the datatype and only a single type is allowed
+6. copy: To copy the input data
+------------------------------------------------------------------------------------------------------------------------
+The Pandas dataframe is a 2-d tabular data, that uses the DataFrame() method to create a Dataframe.
+It also uses different built-in attributes and methods for basic functionalities.
+In this lesson, let see such attributes and methods in python pandas with example:
+1. dtype: Returns the dtype in the DataFrame
+2. ndim: Return the number of dimensions of the dataframe
+3. size: Returns the numbers of elements in the dataframe
+4. shape: Returns the dimensionality of the dataframe in the form of a tuple
+5. T: Transpose of rows and columns
+6. index: Return the index of the dataset
+7. head(): Returns the first n rows
+8. tail(): Returns the last n rows
+------------------------------------------------------------------------------------------------------------------------
+In Pandas, we can join Pandas DataFrame using join() method. This will join the columns of the two different DataFrames.
+Two dataframes can be concatenate using concat() method.
+------------------------------------------------------------------------------------------------------------------------
+Series in Pandas is a 1-D array, like a column in a table.
+It is a labeled array that can hold data of any type.
+The series() method is used for this and has following parameters:
+1. data: The data to be stored in the pandas library.
+2. index: The index value should have the same length as the data.
+3. dtype: It is the datatype for the output series.
+4. name: Set the series name with the name parameters.
+5. copy: To copy the input data.
+It has some attributes:
+1. dtype: Returns the dtype.
+2. ndim: Returns the Number of dimensions.
+3. size: Returns the number of elements.
+4. name: Returns the name of the series.
+5. hasnans: Returns True if NANs are in the series.
+6. index: The index of the series.
+7. head(): Returns the first n rows.
+8. tail(): Returns the last n rows.
+9. info(): Display the summary of the series.
+------------------------------------------------------------------------------------------------------------------------
+To combine two pandas series into one in python, use the combine() method, it uses a specific function for the decision,
+mentioned by the user as a parameter of the combine() method.
+------------------------------------------------------------------------------------------------------------------------
+One of the major benefits of working on pandas on python is the ease to read and access CSV(Comma Separated Files).
+For this, Python is having the Pandas library read_csv().
+------------------------------------------------------------------------------------------------------------------------
+To read an Excel file in Python, we can use the Pandas read_excel() method
+------------------------------------------------------------------------------------------------------------------------
+Indexing means selecting specific rows and columns of data from dataframe.
+A dataframe includes columns, index, and data.
+1. Indexing in pandas using the indexing operator[].
+2. Indexing in pandas using loc[].
+3. Indexing in pandas using iloc[].
+------------------------------------------------------------------------------------------------------------------------
+In Python, easily select multiple column in a Pandas Dataframe.
+Select more than one column without using built-in functions.
+More than two columns can also be selected in a range
+------------------------------------------------------------------------------------------------------------------------
+We will insert a column to an created dataframe
+1. Add a new column using the insert[] method(set the location).
+2. Assign a new column using the assign method(place at the end).
+------------------------------------------------------------------------------------------------------------------------
+The drop() method is used in Python to delete rows/column in a python Dataframe.
+It is used to remove a particular row or column.
+Under the parameter of the drop() method, mention the column you want to delete with the axis.
+------------------------------------------------------------------------------------------------------------------------
+To iterate over rows, use the following methods in Pandas:
+1. iterrows(): To iterate over the rows
+2. itertuples(): To iterate over the rows.
+------------------------------------------------------------------------------------------------------------------------
+To sort the data in Pandas, we can use various methods.
+We can sort the dataframes in Pandas using the sort_values() method.
+------------------------------------------------------------------------------------------------------------------------
+Handling duplicates in Python Pandas means to find and remove duplicates from rows in a DataFrame or Series, use the:
+1. duplicated(): Find Duplicates, and
+2. drop_duplicates(): Remove Duplicates
+------------------------------------------------------------------------------------------------------------------------
+To clean the data in python we have some built-in functions.
+Cleaning the data means working on the incorrect data to fix it.
+The incorrect data can empty data, null, duplicate data, etc.
+Functions to clean data:
+1. isnull(): Find the null values and replace them with True.
+2. notnull(): Find the Not Null values and replace them with True.
+3. df.dropna(): Drop rows with Null values.
+4. df.fillna(X): Replace Null values with a specific value.
+------------------------------------------------------------------------------------------------------------------------
+We can easily perform operation on string in pandas using the string methods.
+1. lower(): Perform lowercase on text data.
+2. upper(): Perform uppercase on text data.
+3. title(): Convert text data to camel case.
+4. len(): To get the length of each element.
+5. count(): Count the non-empty cells for each column or row.
+6. contain(): Search for a value in a column.
+------------------------------------------------------------------------------------------------------------------------
+To remove whitespace(including newlines) or a set of specific characters on text data in a Series or DataFrame:
+1. strip(): Strip whitespace or specific characters from left to right.
+2. lstrip(): Strip whitespace or specific characters from only the left side.
+3. rstrip(): Strip whitespace or specific characters from only the right side.
+------------------------------------------------------------------------------------------------------------------------
+Statistical Functions in Pandas:
+1. sum(): Return the sum of the values
+2. count(): Return the count of non-empty values.
+3. max(): Return the maximum of the values.
+4. min(): Return the minimum of the values.
+5. mean():Return the mean of the values.
+6. median(): Return the median of the values.
+7. std(): Return the standard deviation of the values.
+8. describe(): Return the summary statistics for each column.
+------------------------------------------------------------------------------------------------------------------------
+To plot in pandas we need to use the plot() method and the Matplotlib library.
+The pyplot module from Matplotlib is also used for plotting in Pandas.
+The pyplot.show() is used to display the figure.
+------------------------------------------------------------------------------------------------------------------------
+Matplotlib is an open source Data Visualization library.
+Matplotlib is one of the top and most powerful python libraries for data science.
+The following are the methods you can use to create different plots with Matplotlib sub module Pyplot:
+1. bar(): For the bar plot.
+2. hist(): Plot a histogram.
+3. pie(): PLot a pie chart.
+4. scatter(): Form a scatter plot.
+5. stem(): Form a stem plot.
+6. step(): Form a step plot.
+------------------------------------------------------------------------------------------------------------------------
+A legend in a graph is a box on the left and right displaying the data from the columns.
+Legends generally helps the readers in understanding the graph.
+The legend() function is used to create a legend in Matplotlib .
+------------------------------------------------------------------------------------------------------------------------
+A Bar Graph is a pictorial representation using rectangular bars height.
+The bars represents the value of the data.
+To plot a bar graph in matplotlib, use the bar() method.
+------------------------------------------------------------------------------------------------------------------------
+Numpy is a Python library for numeric and scientific computing it stands for numerical python and consists of
+multi-dimensional array objects.
+It is faster with less LOC.
+Numpy allows you to perform various operations on Arrays, including:
+1. Array Slicing
+2. Array Join
+3. Array Split
+4. Array Reshape
+5. Array Filter
+------------------------------------------------------------------------------------------------------------------------
+Dimension of an array in NumPy are also called the Rank of an Array.
+To check dimension of array we use numpy.ndarray.ndim
